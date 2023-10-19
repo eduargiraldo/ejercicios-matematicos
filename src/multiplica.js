@@ -12,7 +12,8 @@ export class Multiplica extends LitElement {
      var numero3 = this.shadowRoot.getElementById("numero3").value;
 
     if (numero1 !== "" && numero2 !== ""&& numero3 !=="") {
-      var multiplica = parseInt(numero1) * parseInt(numero2)* parseInt(numero3)*1000;
+     var multiplica = parseInt(numero1) * parseInt(numero2)* parseInt(numero3)*1000;
+
       this.shadowRoot.getElementById("resultado").value = multiplica;
     }
   }
