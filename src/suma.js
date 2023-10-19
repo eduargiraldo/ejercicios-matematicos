@@ -5,7 +5,7 @@ import styleScss from "./sumaStyle.js";
 
 export class Suma extends LitElement {
   static get styles() {
-    return [style.css];
+   return [styleScss];
   }
 
   sumar() {
