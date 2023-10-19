@@ -1,9 +1,11 @@
 import { LitElement, html } from "lit-element";
+import styleScss from "./sumaStyle.js";
+
 
 
 export class Suma extends LitElement {
   static get styles() {
-    return;
+    return [style.css];
   }
 
   sumar() {
